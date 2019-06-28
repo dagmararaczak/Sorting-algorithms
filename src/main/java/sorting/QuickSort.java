@@ -44,6 +44,7 @@ public class QuickSort {
                 border++;
 
                 if (border != i) {
+
                     SortUtils.swap(array, border, i);
                 }
 
